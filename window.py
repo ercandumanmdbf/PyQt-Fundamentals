@@ -13,7 +13,7 @@ def source():
     object=QtWidgets.QApplication(sys.argv)
     window=QtWidgets.QWidget()
     
-    window.setWindowTitle("PyQt5 Arayüz Penceresi") #window title
+    window.setWindowTitle("PyQt5 Study Window") #window title
     window.setGeometry(250,300,600,300) #(xpos,ypos,width,height)
     
     window.show()   
