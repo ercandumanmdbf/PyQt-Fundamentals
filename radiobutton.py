@@ -16,8 +16,8 @@ def source():
     window.setWindowTitle("PyQt5 Study Window") #window title
     window.setGeometry(250,300,600,300) #(xpos,ypos,width,height)
     
-    radio1=QtWidgets.QRadioButton(pencere) #adding radio button on window
-    radio2=QtWidgets.QRadioButton(pencere)
+    radio1=QtWidgets.QRadioButton(window) #adding radio button on window
+    radio2=QtWidgets.QRadioButton(window)
     
     radio1.setText("On")
     radio2.setText("Off")
