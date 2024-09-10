@@ -16,7 +16,7 @@ def source():
     window.setWindowTitle("PyQt5 Study Window") #window title
     window.setGeometry(250,300,600,300) #(xpos,ypos,width,height)
     
-    line=QtWidgets.QLineEdit(pencere) #Q Line Edit
+    line=QtWidgets.QLineEdit(window) #Q Line Edit
     line.setText("Default") #default line text
     line.setReadOnly(False) #Disable to change parameter inside Pyqt Window
     line.move(200,10)
